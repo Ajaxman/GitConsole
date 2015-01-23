@@ -13,6 +13,7 @@ class ConsoleTest extends \PHPUnit_Framework_TestCase
 		$app->add(new GitConsole());
 
 		$command = $app->find("git:verify:merge");
+
 		$commandTester = new CommandTester($command);
         $commandTester->execute([]);
 
