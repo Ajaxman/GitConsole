@@ -1,0 +1,23 @@
+{
+	"name": "Jlopez/GitConsole",
+    "description": "Git console tools to be happy with git",
+    "licence": "MIT",
+    "keywords": ["git"],
+    "authors": [
+        {
+            "name": "Javier Lopez Lopez",
+            "email": "sjavierlopez@gmail.com"
+        }
+    ],
+    "require": {
+    	"php": ">=5.4",
+        "knplabs/github-api": "~1.2",
+        "symfony/console": "~2.6"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "4.0.*"
+    },    
+    "autoload": {
+        "psr-0": { "" : "src/" }
+    }    
+}
