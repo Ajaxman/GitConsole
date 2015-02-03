@@ -15,7 +15,7 @@ class ConsoleTest extends \PHPUnit_Framework_TestCase
 		$command = $app->find("git:verify:merge");
 
 		$commandTester = new CommandTester($command);
-        $commandTester->execute([]);
+                $commandTester->execute([]);
 
 		$this->assertRegExp('/Git console/', $commandTester->getDisplay());
 	}
